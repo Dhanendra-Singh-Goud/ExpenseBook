@@ -39,7 +39,7 @@ const dateIsValid = expenseData.date.toString()  !== 'Invalid Date' ;
 const descriptionIsValid = expenseData.description.trim().length > 0 ;
 
 if(!amountIsValid || !dateIsValid || !descriptionIsValid){
-  // Alert.alert('Invalid input' , 'Please check your input here')
+
   setInputValues((curInputValues)=>{
     return{
       amount:{value:curInputValues.amount.value, isValid:amountIsValid},
