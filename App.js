@@ -72,5 +72,3 @@ function ExpensesOverView(){
   </BottomTab.Navigator>
   )
 }
-
-//
